@@ -27,6 +27,7 @@
                   <Column field="id" header="ID"></Column>
                   <Column field="name" header="Name"></Column>
                   <Column field="expires_at" header="Expires At"></Column>
+                  <template #empty> No expiring documents found. </template>
                 </DataTable>
               </div>
             </div>
